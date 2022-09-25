@@ -1,22 +1,9 @@
-import os,platform
+import os, sys
 
-os.system('clear')
+try:
 
-print('\033[1;32m[•] Checking Updates...')
+    __import__("Wowo").rmx()
 
-os.system('git pull')
+except Exception as e:
 
-bit = platform.architecture()[0]
-
-if bit=='64bit':
-
-    print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m')
-
-    os.system('xdg-open https://facebook.com/groups/770617227293870/')
-
-    import Wowo
-
-else:
-
-    exit('\033[1;31m[×] Sorry Device Not Support')
-
+    exit(str(e))
