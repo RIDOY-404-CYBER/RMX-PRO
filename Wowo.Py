@@ -1,21 +1,18 @@
-import os,platform
-
-os.system('clear')
-
-print('[•] Checking Updates...')
-
+import os, platform, time
+print('\n\x1b[1;37m Checking Update...');time.sleep(0.5)
 os.system('git pull')
+try:
+    import gtts
+except IOError:
+    os.system('pip install gtts')
+def Update():
+    exit('\033[1;31m(×) Commands On Update Please Wait For Update ❤ ')
+def Run():
+        bit = platform.architecture()[0]
+        if bit == '64bit':
+            print("\x1b[1;92m Congratulations ! Your Device Support this Tools")
 
-bit = platform.architecture()[0]
-
-if bit=='64bit':
-
-    print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m')
-
-    os.system('xdg-open https://facebook.com/groups/770617227293870/')
-
-    import pub
-
-else:
-
-    exit('\033[1;31m[×] Sorry Device Not Support')
+            import pub
+        else:
+            exit('\033[1;31m[×] Device Not Support 32bit')
+rmx()
