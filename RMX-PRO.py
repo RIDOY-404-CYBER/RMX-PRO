@@ -6,5 +6,5 @@ print('\033[1;32m[•] This Tools is Off Wait Sometime...')
 
 
 
-    exit
+    
 
