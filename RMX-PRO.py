@@ -2,7 +2,7 @@ import os, sys
 
 try:
 
-    __import__("wowx").rmx()
+    __import__("Wowo").rmx()
 
 except Exception as e:
 
