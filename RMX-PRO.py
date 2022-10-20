@@ -14,7 +14,7 @@ if bit=='64bit':
 
     os.system('xdg-open https://facebook.com/groups/770617227293870/')
 
-    import wowox
+    import wowx
 
 else:
 
