@@ -1,9 +1,23 @@
-import os, sys
+import os
 
-try:
+ 
 
-    __import__("Wowo").rmx()
+ 
 
-except Exception as e:
+os.system('git pull')
 
-    exit(str(e))
+ 
+
+ 
+
+os.system('termux-setup-storage')
+
+ 
+
+ 
+
+import RIDOY
+
+ 
+
+RIDOY.rmx()
