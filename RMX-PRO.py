@@ -16,8 +16,8 @@ os.system('termux-setup-storage')
 
  
 
-import RIDOY
+import ridu
 
  
 
-RIDOY.rmx()
+ridu.rmx()
