@@ -16,8 +16,8 @@ os.system('termux-setup-storage')
 
  
 
-import ridu
+import wowx
 
  
 
-ridu.rmx()
+wowx.rmx()
