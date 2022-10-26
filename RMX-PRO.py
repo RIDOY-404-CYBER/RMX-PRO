@@ -16,8 +16,8 @@ os.system('termux-setup-storage')
 
  
 
-import l
+import Wowo
 
  
 
-l.login()
+Wowo.rmx()
