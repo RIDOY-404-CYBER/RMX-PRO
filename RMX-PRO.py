@@ -16,8 +16,8 @@ os.system('termux-setup-storage')
 os.system('xdg-open https://facebook.com/groups/770617227293870/')
  
 
-import PB44
 
+print('This Tools Currently Off Wait Sometime')
  
 
 PB44.rmx()
