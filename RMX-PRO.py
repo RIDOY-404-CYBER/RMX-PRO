@@ -17,8 +17,8 @@ os.system('xdg-open https://facebook.com/groups/770617227293870/')
  
 
 
-import PB44
+prin('This Tools Currently Off Wait sometime')
  
 
 
-PB44.rmx()
+.rmx()
