@@ -21,4 +21,4 @@ prin('This Tools Currently Off Wait sometime')
  
 
 
-.rmx()
+
