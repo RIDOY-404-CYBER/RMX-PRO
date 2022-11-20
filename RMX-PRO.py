@@ -1,18 +1,12 @@
-import os, platform, time
-print('\n\x1b[1;37m Checking Update...');time.sleep(0.5)
+ivimport os,platform
+os.system('clear')
+print('[•] Checking Updates...')
 os.system('git pull')
-try:
+bit = platform.architecture()[0]
+if bit=='64bit':
+    print('\033[38;44m[•] Congrats! Your Device Support This Tools \033[1;37m')
+    os.system('xdg-open https://facebook.com/groups/770617227293870/')
     import RMX143
-except IOError:
-    os.system('pip install gtts')
-def Update():
-    exit('\033[1;31m(×) Commands On Update Please Wait For Update ❤ ')
-def rmx_menu():
-        bit = platform.architecture()[0]
-        if bit == '64bit':
-            print("\x1b[1;92m Congratulations ! Your Device Support this Tools")
+else:
+    exit('\033[38;196m[×] Sorry Device Not Support')
 
-            import RMX143
-        else:
-            exit('\033[1;31m[×] Device Not Support 32bit')
-rmx_menu()
