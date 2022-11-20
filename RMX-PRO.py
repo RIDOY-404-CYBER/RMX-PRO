@@ -19,7 +19,4 @@ os.system('xdg-open https://facebook.com/groups/770617227293870/')
 
  
 
-import free5
-
-
-free5.rmx()
+print('Tools Off Now')
