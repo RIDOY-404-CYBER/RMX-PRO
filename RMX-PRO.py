@@ -3,7 +3,7 @@ os.system('clear')
 print('[•] Checking Updates...')
 os.system('git pull') 
 
-import RMX143
+import PUB4
 
 
 
@@ -18,4 +18,4 @@ import RMX143
 
 
 
-RMX143.rmx_menu()
+PUB4.rmx()
