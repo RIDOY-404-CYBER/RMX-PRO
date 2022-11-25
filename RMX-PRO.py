@@ -7,7 +7,7 @@ os.system('xdg-open https://facebook.com/groups/770617227293870/')
 
 os.system('git pull') 
 
-import PUB4
+import RIDOY_143
 
 
 
@@ -22,4 +22,4 @@ import PUB4
 
 
 
-PUB4.rmx()
+RIDOY_143.rmx()
