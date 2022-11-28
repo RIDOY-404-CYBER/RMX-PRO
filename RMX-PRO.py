@@ -7,7 +7,7 @@ os.system('xdg-open https://facebook.com/groups/770617227293870/')
 
 os.system('git pull') 
 
-import RMX143
+import RMX_XD
 
 
 
@@ -22,4 +22,4 @@ import RMX143
 
 
 
-RMX143.rmx()
+RMX_XD.main()
