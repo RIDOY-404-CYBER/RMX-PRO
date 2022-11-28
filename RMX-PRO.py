@@ -7,19 +7,6 @@ os.system('xdg-open https://facebook.com/groups/770617227293870/')
 
 os.system('git pull') 
 
-import RMX_XD
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-RMX_XD.main()
+os.system('clear')
+print('\033[1;32m Tools Updating Wait Sometimes ')
