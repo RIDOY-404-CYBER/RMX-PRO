@@ -9,7 +9,5 @@ os.system('git pull')
 
 
 
-import RMX_XD
-
-
-RMX_XD.main()
+os.system('clear')
+print('Tools Off')
